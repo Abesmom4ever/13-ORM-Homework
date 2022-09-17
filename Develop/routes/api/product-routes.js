@@ -16,7 +16,7 @@ router.get("/", (req, res) => {
 // get one product
 router.get("/:id", (req, res) => {
     // find a single product by its `id`
-    Product.findByPk().;
+    // Product.findByPk().
 });
 
 // create new product
