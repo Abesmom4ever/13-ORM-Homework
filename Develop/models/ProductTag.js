@@ -7,14 +7,14 @@ class ProductTag extends Model {}
 ProductTag.init(
     {
         //table will store a tag ID and a product ID which connects all relationships
-        tag_id: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-        },
-        product_id: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-        },
+        // tag_id: {
+        //     type: DataTypes.INTEGER,
+        //     allowNull: false,
+        // },
+        // product_id: {
+        //     type: DataTypes.INTEGER,
+        //     allowNull: false,
+        // },
     },
     {
         sequelize,
